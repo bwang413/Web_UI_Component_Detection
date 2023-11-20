@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['Checkbox', 'button', 'check-box', 'combo-box', 'date-picker', 'input-fields', 'radio', 'search-box', 'text-box']
+
+roboflow:
+  workspace: cei-l0zlv
+  project: input-fields-detection
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cei-l0zlv/input-fields-detection/dataset/3
